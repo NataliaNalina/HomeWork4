@@ -52,7 +52,7 @@ public class Main {
 
         if (age < 5) {
             System.out.println("Если возраст ребенка равен "+age+ " , то он не может кататься на аттракционе.");
-        } else  if (age >=5 && age <=14) {
+        } else  if (age <=14) {
             System.out.println("Если возраст ребенка равен "+age+ " , то он может кататься только в сопровождении взрослого");
         } else  {
             System.out.println("Если возраст ребенка равен "+age+ " , то он может кататься без сопровождения .");
@@ -63,7 +63,7 @@ public class Main {
 
         if (numPassenger <=60) {
             System.out.println("Это "+numPassenger+ " пассажир, в вагоне займет сидячее место.");
-        } else  if (numPassenger > 60 && numPassenger <=102) {
+        } else  if (numPassenger <=102) {
             System.out.println("Это"+numPassenger+ " пассажир, в вагоне займет стоячее место.");
         } else  {
             System.out.println("Это "+numPassenger+ " пассажир, вагон полностью забит.");
