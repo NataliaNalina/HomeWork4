@@ -7,7 +7,6 @@ public class Main {
         System.out.println("Задача 1. ");
         System.out.println("Введите возраст: ");
         int age = in.nextInt();
-
         if (age < 18) {
             System.out.println("Если возраст человека равен "+age+ " ,то он  несовершеннолетний, нужно немного подождать.");
         } else {
